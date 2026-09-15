@@ -1,0 +1,27 @@
+// Commit time data as an ES Module
+
+export const metadata = {
+  project: "Lanchain",
+  created_at: "2026-09-03T05:54:17+05:30",
+  last_updated: "2026-09-03T05:54:17+05:30",
+  total_commits: 0,
+  total_time_spent_minutes: 0
+};
+
+export const commits = [
+  {
+    id: "commit_001",
+    hash: "",
+    message: "",
+    author: "",
+    email: "",
+    timestamp: "",
+    date: "",
+    branch: "",
+    files_changed: [],
+    duration_minutes: null,
+    tags: []
+  }
+];
+
+export default { metadata, commits };
